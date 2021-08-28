@@ -79,21 +79,23 @@ a {
 }
 
 .box {
+    grid-column-start: 2;
+    grid-column-end:6;
     background-color: #444;
-    padding: 130px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
     font-size: .8em;
 }
+.style {
+grid-column-start: 1;
+grid-column-end: 2;
 
+
+}
 .box > img {
     width: 100%;
 }
-.style {
-  text-align: center;
-  grid-column-start: 1;
-  grid-column-end: 6;
 
-}
 /* Footer */
 footer {
     text-align: center;
